@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Vacunacion</title>
+    </head>
+
+    <body>
+        <!--Division contenedora de la pagina web-->
+        <div class="contenedor">
+            <!--Division contenedora de la barra de navegacion-->
+            <div class="barra-navegacion">
+                <ul>
+                    <li><input type="button" id="principal" name="principal" value="Hoax Buster"></li>
+                    <li><a href="#Regulation">Regulation</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Database">Database</a></li>
+                    <h2>Vaccination</h2>
+                </ul>
+            </div>
+            <!--Division contenedora de los anuncios de la primera seccion (superior)-->
+            <div class="anuncios-superiores">
+                <div class="anuncio1-izq">
+                    <h1>Fight Virus With Vaccines</h1>
+                    <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
+                    <p class="texto-icono"><img class="imagen-icono-amarillo" src=".\icono-proteccion.png" alt="Icono-Proteccion" width="30">Best protection &nbsp&nbsp&nbsp<img class="imagen-icono-amarillo" src=".\icono-estrella.png" alt="Icono-Estrella" width="30">Selected Vaccines</p>
+                    <p class="texto-icono"><img class="imagen-icono-morado" src=".\icono-reloj.png" alt="Icono-Reloj" width="30">Schedule your vaccinations</p>
+                </div>
+                <div class="anuncio1-der">
+                    <img src=".\enfermer@5.png" alt="Enfermera" width="100%">
+                </div>
+                <div class="anuncio-flotante">
+                    <div class="anuncio-flotante-parte">
+                        <p class="espaciado"><img class="imagen-icono-morado espaciado" src=".\icono-ubicacion.png" alt="Icono-Ubicacion" width="20">Location</p>
+                        <p class="texto-icono" style="margin-left:35px;">Jakarta Utura</p>
+                    </div>
+                    <div class="anuncio-flotante-parte">
+                        <p class="espaciado"><img class="imagen-icono-morado espaciado" src=".\icono-calendario.png" alt="Icono-Calendario" width="20">Date</p>
+                        <p class="texto-icono" style="margin-left:35px;">08 July 2021</p>
+                    </div>
+                    <div class="anuncio-flotante-parte">
+                        <p class="espaciado"><img class="imagen-icono-morado espaciado" src=".\icono-vacuna.png" alt="Icono-Vacuna" width="20">Vaccine Type</p>
+                        <p class="texto-icono" style="margin-left:35px;">Moderna</p>
+                    </div>
+                    <div class="anuncio-flotante-parte">
+                        <input style="margin-top: 30px;" type="button" id="submit" name="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+            <!--Division contenedora de los logos opacos-->
+            <div class="logos-opacos">
+                <img class="imagen-logo" src=".\logo-astrazeneca.png" alt="Enfermera" width="200">
+                <img class="imagen-logo" src=".\logo-sinovac.png" alt="Enfermera" width="200">
+                <img class="imagen-logo" src=".\logo-pfizer.png" alt="Enfermera" width="200">
+                <img class="imagen-logo" src=".\logo-moderna.png" alt="Enfermera" width="200">
+            </div>
+            <br><br><br><br><br>
+            <!--Division contenedora de los anuncios de la segunda seccion (media superior)-->
+            <div class="anuncios-medios">
+                <div class="anuncio-medio-1">
+                    <h1>Why should a Vaccine?</h1>
+                    <p>In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination:</p>
+                </div>
+                <div class="anuncio-medio-2">
+                    <div class="cuadro">
+                        <img class="imagen-cuadro" src=".\icono-puntos.png" alt="Icono-Puntos" width="50">
+                        <p class="texto-titulo-cuadro">Minimize the spread of viruses</p>
+                        <p class="texto-cuadro">Vaccine has been proven efective to prevent someone from getting infected with Coronavirus</p>
+                    </div>
+                    <div class="cuadro">
+                        <img class="imagen-cuadro" src=".\icono-proteccion-mor.png" alt="Icono-Porteccion" width="50">
+                        <p class="texto-titulo-cuadro">Forming antibodies</p>
+                        <p class="texto-cuadro">COVID-19 vaccine proven to help shape antibody response for inmmune system</p>
+                    </div>
+                    <div class="cuadro">
+                        <img class="imagen-cuadro" src=".\icono-personas.png" alt="Icono-Personas" width="50">
+                        <p class="texto-titulo-cuadro">Protecting people nearby</p>
+                        <p class="texto-cuadro">The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
+                    </div>
+                    <div class="cuadro">
+                        <img class="imagen-cuadro" src=".\icono-grafico.png" alt="Icono-Grafico" width="50">
+                        <p class="texto-titulo-cuadro">Creating group immunity</p>
+                        <p class="texto-cuadro">COVID-19 vaccination is also beneficial for creating group immunity or herd immunity.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Division contenedora de los anuncios de la tercera seccion (media inferior)-->
+            <div class="anuncios-medios-2">
+                <div class="anuncio2-izq">
+                    <img src=".\enfermer@3.png" alt="Enfermera" width="100%">
+                </div>
+                <div class="anuncio2-der">
+                    <h1>Preparations Before Vaccine</h1>
+                    <p>the success of vaccines is strongly influenced by the strengh of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+                    <div class="rectangulo"> 
+                        <input id="desplegable1" type="checkbox" name="desplegable"> 
+                        <label for="desplegable1"><p class="texto-rectangulo"><img class="imagen-rectangulo" src=".\icono-escudo.png" alt="Icono-Escudo" width="20">Avoid alcoholic beverages</p></label> 
+                        <div class="spoiler"><p class="texto-rectangulo-2">Avoid alcoholic beverages</p></div> 
+                    </div> 
+                    <div class="rectangulo">
+                        <input id="desplegable2" type="checkbox" name="desplegable"> 
+                        <label for="desplegable2"><p class="texto-rectangulo"><img class="imagen-rectangulo" src=".\icono-cerrar.png" alt="Icono-Cerrar" width="20">Avoid stress</p></label>
+                        <div class="spoiler"><p class="texto-rectangulo-2">Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.</p></div>
+                    </div>
+                    <div class="rectangulo">
+                        <input id="desplegable3" type="checkbox" name="desplegable"> 
+                        <label for="desplegable3"><p class="texto-rectangulo"><img class="imagen-rectangulo" src=".\icono-grafica.png" alt="Icono-Grafica" width="20">Eat healthy food</p></label>
+                        <div class="spoiler"><p class="texto-rectangulo-2">Eat healthy food</p></div> 
+                    </div>
+                    <div class="rectangulo">
+                        <input id="desplegable4" type="checkbox" name="desplegable"> 
+                        <label for="desplegable4"><p class="texto-rectangulo"><img class="imagen-rectangulo" src=".\icono-check.png" alt="Icono-Check" width="20">Get enough sleep</p></label>
+                        <div class="spoiler"><p class="texto-rectangulo-2">Get enough sleep</p></div> 
+                    </div>
+                    <div class="rectangulo">
+                        <input id="desplegable5" type="checkbox" name="desplegable"> 
+                        <label for="desplegable5"><p class="texto-rectangulo"><img class="imagen-rectangulo" src=".\icono-corazon.png" alt="Icono-Corazon" width="20">Exercise or physical activity</p></label>
+                        <div class="spoiler"><p class="texto-rectangulo-2">Exercise or physical activity</p></div> 
+                    </div>
+                </div>
+            </div>
+            <!--Division contenedora de los anuncios de la cuarta seccion (inferior)-->
+            <div class="anuncios-bajos">
+                <div class="anuncios-bajos-izq">
+                    <h1>Emergency Contact</h1>
+                    <p>Contact one of the contacts below if you or your family fell unwell and have similar symptoms such as COVID-19, make sure you alsos taake care of yourself before reporting to us:</p>
+                    <div class="cuadro-inferior izquierdo">
+                        <div class="cuadro-inferior-izq">
+                            <img class="imagen-cuadro-inferior" src=".\icono-telefono.png" alt="Icono-Telefono" width="50">
+                        </div>
+                        <div class="cuadro-inferior-der">
+                            <p class="texto-titulo-cuadro-inferior">Call</p>
+                            <p class="texto-cuadro-inferior">021.123.145.114</p>
+                        </div>
+                        <input class="cuadro-inferior-boton" type="button" id="call-now" name="call-now" value="Call Now">
+                    </div>
+
+                    <div class="cuadro-inferior derecho">
+                        <div class="cuadro-inferior-izq">
+                            <img class="imagen-cuadro-inferior" src=".\icono-chat.png" alt="Icono-Chat" width="50">
+                        </div>
+                        <div class="cuadro-inferior-der">
+                            <p class="texto-titulo-cuadro-inferior">Chat</p>
+                            <p class="texto-cuadro-inferior">021.123.145.114</p>
+                        </div>
+                        <input class="cuadro-inferior-boton-2" type="button" id="chat-now" name="chat-now" value="Chat Now">
+                    </div>
+
+                    <div class="cuadro-inferior izquierdo">
+                        <div class="cuadro-inferior-izq">
+                            <img class="imagen-cuadro-inferior" src=".\icono-videollamada.png" alt="Icono-Videollamada" width="50">
+                        </div>
+                        <div class="cuadro-inferior-der">
+                            <p class="texto-titulo-cuadro-inferior">VideoCall</p>
+                            <p class="texto-cuadro-inferior">021.123.145.114</p>
+                        </div>
+                        <input class="cuadro-inferior-boton" type="button" id="videocall-now" name="videocall-now" value="VideoCall Now">
+                    </div>
+
+                    <div class="cuadro-inferior derecho">
+                        <div class="cuadro-inferior-izq">
+                            <img class="imagen-cuadro-inferior" src=".\icono-correo.png" alt="Icono-Mensaje" width="50">
+                        </div>
+                        <div class="cuadro-inferior-der">
+                            <p class="texto-titulo-cuadro-inferior">Message</p>
+                            <p class="texto-cuadro-inferior">021.123.145.114</p>
+                        </div>
+                        <input class="cuadro-inferior-boton" type="button" id="message-now" name="message-now" value="Message Now">
+                    </div>
+                </div>
+                <div class="anuncios-bajos-der">
+                    <img src=".\enfermer@1.png" alt="Enfermero" width="100%">
+                </div>
+            </div>
+            <br>
+            <!--Division contenedora del pie de pagina-->
+            <footer>
+                <div class="pie-izquierdo">
+                    <h2 class="titulo-pie">Vaccination</h2>
+                    <p class="texto-pie">Our goal is to help the world free from the ongoing pandemic</p>
+                    <br><br>
+                    <p class="texto-pie-2">@2021 Vaccination. All rights reserved</p>
+                </div>
+                <div class="pie-derecho">
+                    <div class="pie-derecho-separacion">
+                        <p class="titulo-pie-2">About</p>
+                        <p class="texto-pie-3">About Us</p>
+                        <p class="texto-pie-3">Features</p>
+                        <p class="texto-pie-3">New & Blog</p>
+                    </div>
+                    <div class="pie-derecho-separacion">
+                        <p class="titulo-pie-2">Company</p>
+                        <p class="texto-pie-3">How we work?</p>
+                        <p class="texto-pie-3">Capital</p>
+                        <p class="texto-pie-3">Security</p>
+                    </div>
+                    <div class="pie-derecho-separacion">
+                        <p class="titulo-pie-2">Support</p>
+                        <p class="texto-pie-3">FAQs</p>
+                        <p class="texto-pie-3">Support Center</p>
+                        <p class="texto-pie-3">Contact Us</p>
+                    </div>
+                    <p class="texto-pie-4">Terms & Agreements Privacy Policy</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
